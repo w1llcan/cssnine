@@ -1,0 +1,291 @@
+.one {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc1.jpeg);
+    position: relative;
+    -webkit-animation: moveone 5s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: moveone 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes moveone {
+    from {top: 0px;}
+    to {top: 52px;}
+    from {left: 0px;}
+    to {left: 29.8%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes moveone {
+    from {top: 0px;}
+    to {top: 52px;}
+    from {left: 0px;}
+    to {left: 29.8%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+.two {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc2.jpeg);
+    position: relative;
+    -webkit-animation: movetwo 5s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: movetwo 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes movetwo {
+    from {top: -145px;}
+    to {top: -76px;}
+    from {left: 90%;}
+    to {left: 39.2%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes movetwo {
+    from {top: -145px;}
+    to {top: -76px;}
+    from {left: 90%;}
+    to {left: 39.2%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+.three {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc3.jpeg);
+    position: relative;
+    -webkit-animation: movethree 5s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: movethree 5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes movethree {
+    from {bottom: 40px;}
+    to {top: -204px;}
+    from {left: 100%;}
+    to {left: 48.5%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes movethree {
+    from {bottom: 40px;}
+    to {top: -204px;}
+    from {left: 100%;}
+    to {left: 48.5%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+.four {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc4.jpeg);
+    position: relative;
+    -webkit-animation: movefour 6s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: movefour 6s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes movefour {
+    from {top: 0px;}
+    to {top: -204px;}
+    from {left: 0px;}
+    to {left: 29.8%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes movefour {
+    from {top: 0px;}
+    to {top: -204px;}
+    from {left: 0px;}
+    to {left: 29.8%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+.five {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc5.jpeg);
+    position: relative;
+    -webkit-animation: movefive 5s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: movefive 5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes movefive {
+    from {top: 0px;}
+    to {top: -332px;}
+    from {left: 96%;}
+    to {left: 39.2%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes movefive {
+    from {top: 0px;}
+    to {top: -332px;}
+    from {left: 96%;}
+    to {left: 39.2%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+.six {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc6.jpeg);
+    position: relative;
+    -webkit-animation: movesix 6s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: movesix 6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes movesix {
+    from {bottom: 0px;}
+    to {top: -460px;}
+    from {left: 100%;}
+    to {left: 48.5%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes movesix {
+    from {bottom: 0px;}
+    to {top: -460px;}
+    from {left: 100%;}
+    to {left: 48.5%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+.seven {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc7.jpeg);
+    position: relative;
+    -webkit-animation: moveseven 6s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: moveseven 6s;
+    animation-timing-function: ease-in;
+    animation-fill-mode:both;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes moveseven {
+    from {top: 0px;}
+    to {top: -460px;}
+    from {left: 0px;}
+    to {left: 29.8%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes moveseven {
+    from {top: 0px;}
+    to {top: -460px;}
+    from {left: 0px;}
+    to {left: 29.8%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+.eight {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc8.jpeg);
+    position: relative;
+    -webkit-animation: moveeight 6s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: moveeight 6s;
+    animation-timing-function: ease;
+    animation-fill-mode:forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes moveeight {
+    from {top: 0px;}
+    to {top: -588px;}
+    from {left: 97%;}
+    to {left: 39.2%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes moveeight {
+    from {top: 0px;}
+    to {top: -588px;}
+    from {left: 97%;}
+    to {left: 39.2%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+.nine {
+    width: 147px;
+    height: 128px;
+    background-image: url(../img/wc9.jpeg);
+    position: relative;
+    -webkit-animation: movenine 6s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: both; /* Safari 4.0 - 8.0 */
+    animation: movenine 6s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes movenine {
+    from {bottom: 700px;}
+    to {top: -716px;}
+    from {left: 100%;}
+    to {left: 48.5%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
+
+@keyframes movenine {
+    from {bottom: 700px;}
+    to {top: -716px;}
+    from {left: 100%;}
+    to {left: 48.5%;}
+    to {
+    transform: translateX(147px) scale(1.);
+  }
+}
